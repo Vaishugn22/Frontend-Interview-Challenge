@@ -104,13 +104,13 @@ app/
 ```bash
 npm install
 
-2. Run development server:
+**2. Run development server:**
 
 npm run dev
 
-3. Open http://localhost:3000
+**3. Open http://localhost:3000**
 
-4. Test roles on the Schedule Page:
+**4. Test roles on the Schedule Page:**
 
 Select Front Desk Staff → Doctor dropdown appears.
 
