@@ -60,7 +60,9 @@ You're building an internal hospital scheduling system. The hospital has:
 app/
 
 ├── page.tsx # Home page
+
 ├── schedule/page.tsx # Schedule page
+
 ├── components/
 
 │ ├── ScheduleView.tsx
@@ -72,15 +74,25 @@ app/
 │ └── ui/
 
 ├── hooks/
+
 │ └── useAppointments.ts
+
 ├── services/
+
 │ └── appointmentService.ts
+
 ├── domain/
+
 │ └── TimeSlot.ts
+
 │ └── Appointment.ts
+
 ├── types/
+
 │ └── index.ts
+
 └── data/
+
 └── mockData.ts
 
 
