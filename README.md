@@ -58,6 +58,7 @@ You're building an internal hospital scheduling system. The hospital has:
 ## 📁 Project Structure
 
 app/
+
 ├── page.tsx # Home page
 ├── schedule/page.tsx # Schedule page
 ├── components/
