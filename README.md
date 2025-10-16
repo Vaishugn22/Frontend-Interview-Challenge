@@ -115,9 +115,10 @@ npm run dev
 Select Front Desk Staff → Doctor dropdown appears.
 
 Select Doctor → Only the logged-in doctor’s schedule is shown.
+```
 
 🏗️ Architecture Decisions
-
+```
 ##Separation of Concerns
 
 ->UI Components: DayView, WeekView, ScheduleView
@@ -125,7 +126,7 @@ Select Doctor → Only the logged-in doctor’s schedule is shown.
 ->Business Logic: useAppointments hook
 
 ->Data Access: appointmentService.ts
-
+```
 ##Headless Components
 
 ->Logic separated from presentation for reusability.
