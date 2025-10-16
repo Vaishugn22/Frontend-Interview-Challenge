@@ -134,7 +134,7 @@ Logic separated from presentation for reusability.
 Domain Models
 ```
 TimeSlot class implemented to handle overlapping and future expansion.
-
+```
 📌 Future Improvements
 ```
 Appointment search/filter
