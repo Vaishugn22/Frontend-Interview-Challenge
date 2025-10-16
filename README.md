@@ -13,7 +13,7 @@ It allows users to view appointments in **day** and **week** calendar views, wit
 ## 📋 Scenario
 
 You're building an internal hospital scheduling system. The hospital has:
-- **3 Doctors** with different specialties and working hours
+- **Doctors** with different specialties and working hours
 - **50 Patients** with various appointments
 - **Appointments** scheduled throughout the week
 
@@ -100,7 +100,7 @@ app/
 
 ## ⚡ Usage
 
-1. Install dependencies:
+1.** Install dependencies:**
 ```bash
 npm install
 
