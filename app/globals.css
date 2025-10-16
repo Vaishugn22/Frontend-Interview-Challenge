@@ -1,0 +1,40 @@
+/* Tailwind Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb));
+}
+
+/* Appointment type colors */
+.appointment-checkup { background-color: #3b82f6; border-color: #2563eb; }
+.appointment-consultation { background-color: #10b981; border-color: #059669; }
+.appointment-follow-up { background-color: #f59e0b; border-color: #d97706; }
+.appointment-procedure { background-color: #8b5cf6; border-color: #7c3aed; }
+
+/* Responsive Table Scroll */
+@media (max-width: 768px) {
+  table { display: block; overflow-x: auto; white-space: nowrap; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.6), 0 0 30px rgba(59, 130, 246, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(59, 130, 246, 0.8), 0 0 40px rgba(59, 130, 246, 0.5);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
