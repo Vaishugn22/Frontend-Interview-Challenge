@@ -60,12 +60,19 @@ You're building an internal hospital scheduling system. The hospital has:
 app/
 
 ├── page.tsx # Home page
+
 ├── schedule/page.tsx # Schedule page
+
 ├── components/
+
 │ ├── ScheduleView.tsx
+
 │ ├── DayView.tsx
+
 │ ├── WeekView.tsx
+
 │ └── ui/
+
 ├── hooks/
 │ └── useAppointments.ts
 ├── services/
