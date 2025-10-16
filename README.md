@@ -100,7 +100,7 @@ app/
 
 ## ⚡ Usage
 
-##Install dependencies:
+1.Install dependencies:
 ```bash
 npm install
  ```
@@ -118,34 +118,34 @@ Select Doctor → Only the logged-in doctor’s schedule is shown.
 ```
 
 🏗️ Architecture Decisions
-```
-##Separation of Concerns
 
+Separation of Concerns
+```
 ->UI Components: DayView, WeekView, ScheduleView
 
 ->Business Logic: useAppointments hook
 
 ->Data Access: appointmentService.ts
 ```
-##Headless Components
-
+Headless Components
+```
 ->Logic separated from presentation for reusability.
 
-##Domain Models
+Domain Models
+```
+TimeSlot class implemented to handle overlapping and future expansion.
 
-->TimeSlot class implemented to handle overlapping and future expansion.
+📌 Future Improvements
+```
+Appointment search/filter
 
-##📌 Future Improvements
+Current time indicator (red line)
 
-->Appointment search/filter
+Side-by-side multiple doctor view
 
-->Current time indicator (red line)
+Dark mode and accessibility enhancements
 
-->Side-by-side multiple doctor view
-
-->Dark mode and accessibility enhancements
-
-->Integration with real backend and authentication
+Integration with real backend and authentication
 
 
 
