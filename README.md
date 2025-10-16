@@ -121,16 +121,16 @@ Select Doctor → Only the logged-in doctor’s schedule is shown.
 
 Separation of Concerns
 ```
-->UI Components: DayView, WeekView, ScheduleView
+UI Components: DayView, WeekView, ScheduleView
 
-->Business Logic: useAppointments hook
+Business Logic: useAppointments hook
 
-->Data Access: appointmentService.ts
+Data Access: appointmentService.ts
 ```
 Headless Components
 ```
-->Logic separated from presentation for reusability.
-
+Logic separated from presentation for reusability.
+```
 Domain Models
 ```
 TimeSlot class implemented to handle overlapping and future expansion.
